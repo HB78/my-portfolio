@@ -20,7 +20,7 @@ const Hero = () => {
     });
   }
   //Avant j'avais mis un array simple, le usememo permet de ne pas recréer le tableau à chaque fois que le hook change
-  const phrases = ["Hicham", "a fullstack web developer"];
+  const phrases = ["Hicham b", "a fullstack web developer"];
 
   const [element, setElement] = useState("");
   const [isTyping, setIsTyping] = useState(true);
